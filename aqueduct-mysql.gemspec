@@ -1,6 +1,6 @@
 # Compiling the Gem
 # gem build aqueduct-mysql.gemspec
-# gem install ./aqueduct-mysql-x.x.x.gem
+# gem install ./aqueduct-mysql-x.x.x.gem --no-ri --no-rdoc --local
 #
 # gem push aqueduct-mysql-x.x.x.gem
 # gem list -r aqueduct-mysql
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/remomueller"
   s.summary     = "Connect to MySQL through Aqueduct"
   s.description = "Connects to MySQL through Aqueduct interface"
+  s.license     = 'CC BY-NC-SA 3.0'
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-mysql.gemspec", "CHANGELOG.md", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]

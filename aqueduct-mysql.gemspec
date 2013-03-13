@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-mysql.gemspec", "CHANGELOG.md", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails",     "~> 3.2.1"
-  s.add_dependency "aqueduct",  "~> 0.1.0"
+  s.add_dependency "rails",     "~> 4.0.0.beta1"
+  # s.add_dependency "aqueduct",  "~> 0.2.0" # Currently in Gemfile
   s.add_dependency "mysql2",    "~> 0.3.11"
 
   s.add_development_dependency "sqlite3"

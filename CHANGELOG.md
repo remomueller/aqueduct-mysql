@@ -1,5 +1,8 @@
 ## 0.2.1
 
+### Bug Fix
+- Fixed an error that occurred when retrieving all values for a column that did not exist
+
 ## 0.2.0 (July 17, 2013)
 
 ### Enhancements

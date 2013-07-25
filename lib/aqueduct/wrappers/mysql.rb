@@ -122,7 +122,7 @@ module Aqueduct
               column_found = true if field['Field'] == column
             end
             if not column_found
-              result += " <i>#{column}</i> does not exist in <i>#{@source.database}.#{table}</i>"
+              error += " <i>#{column}</i> does not exist in <i>#{@source.database}.#{table}</i>"
             else
               results = db_connection.query("SELECT `#{column}` FROM #{table};")
               results.each do |row|

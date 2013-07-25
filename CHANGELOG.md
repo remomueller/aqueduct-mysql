@@ -1,4 +1,4 @@
-## 0.2.1
+## 0.2.1 (July 25, 2013)
 
 ### Bug Fix
 - Fixed an error that occurred when retrieving all values for a column that did not exist
